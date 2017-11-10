@@ -1,0 +1,25 @@
+//Simular cien tiradas de dos dados y contar las veces que entre los dos suman 10.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje29 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int cont=0;
+		int v= (int) (Math.random()*7);////nos genera un numero aletorio (sin incluir el 0 y el 7)
+		while(cont<100){
+			cont++;
+			System.out.println(cont);
+		}
+	}
+
+}

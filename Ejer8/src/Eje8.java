@@ -1,0 +1,35 @@
+//Hacer un pseudocódigo que solo nos permita introducir S o N
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class Eje8 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in); 
+		String texto="";
+		System.out.println("Dame una letra:");
+		texto=teclado.nextLine();
+		if (texto.equalsIgnoreCase("s")||texto.equalsIgnoreCase("n")){//Comparar si la letra metida es S o N
+			System.out.println("Letra correcta");
+			
+		}else {
+			System.out.println("Dame una letra correcta:");
+			texto=teclado.nextLine();
+			
+		}
+		
+		
+	}
+
+}

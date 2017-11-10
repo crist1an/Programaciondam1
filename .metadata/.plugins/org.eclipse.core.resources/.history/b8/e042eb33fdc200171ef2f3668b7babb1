@@ -1,0 +1,31 @@
+//Crear una tabla de 3 páginas, 4 filas y 5 columnas donde el primer elemento valga 1, el segundo 2, el tercero 3 y así sucesivamente, e imprimirla. 
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje40 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int tabla[][][];
+		tabla=new int [3][4][5];
+		for (int pag = 0; pag < tabla.length; pag++) {//paginas
+			
+			for (int fila = 0; fila < tabla.length; fila++) {//filas
+				for (int col = 0; col < tabla.length; col++) {// columnas
+					
+				}
+			}
+			
+		}
+
+	}
+
+}

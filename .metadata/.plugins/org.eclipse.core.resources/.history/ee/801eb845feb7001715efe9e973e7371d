@@ -1,0 +1,20 @@
+//Introducir una frase por teclado. Imprimirla cinco veces en filas consecutivas, pero cada impresión ir desplazada cuatro columnas hacia la derecha.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje22 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

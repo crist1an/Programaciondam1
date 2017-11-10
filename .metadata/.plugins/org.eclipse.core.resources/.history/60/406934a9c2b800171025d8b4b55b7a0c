@@ -1,0 +1,42 @@
+//Comprobar si un número mayor o igual que la unidad es primo.
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class eje24 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int num1 = 0;
+		int cont = 2;
+		System.out.println("dame un número:");
+		num1=teclado.nextInt();
+		boolean primo=true;
+		while(primo && cont<=num1){
+			
+			if(num1%cont==0){
+						primo=false;
+			}
+			cont++;
+		}
+		if(primo){
+			System.out.println("Es primo");
+		}else{
+			System.out.println("No es primo");
+			
+		}
+		
+	}
+	
+
+}

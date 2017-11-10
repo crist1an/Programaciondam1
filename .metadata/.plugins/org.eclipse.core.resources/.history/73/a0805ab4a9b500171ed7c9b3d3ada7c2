@@ -1,0 +1,42 @@
+//Hacer un programa que calcule independientemente la suma de los pares y los impares de los números entre 1 y 1000, utilizando un switch.
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje21 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int par=0;
+		int	impar=0;
+		int	cont=2;
+		while(cont>=100){
+			boolean p = (cont%2==0);
+			if (p == true){
+				par=1;
+			}else{
+				impar=1;
+			}
+			switch(par){
+			case 1:
+				par=par+cont;
+				break;
+			case 2:
+				impar=impar+cont;
+				break;
+			
+			}
+			cont++;
+		}
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+//Introducir una frase por teclado. Imprimirla en el centro de la pantalla
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class eje26 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		String mitexto; // vamos a leer una frase
+		System.out.println("dame un texto:");
+		mitexto=teclado.nextLine();
+		System.out.println(mitexto);
+		while(){
+			
+		}
+	}
+
+}

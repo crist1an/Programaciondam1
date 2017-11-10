@@ -1,0 +1,28 @@
+//Hacer un pseudocódigo que imprima los números del 0 al 100, controlando las filas y las columnas.
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje23 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int cont = 1;
+		while(cont<=100){
+			if(cont%10==0){
+				System.out.println();
+			}
+			System.out.println(cont);
+			cont++;
+		}
+	}
+
+}

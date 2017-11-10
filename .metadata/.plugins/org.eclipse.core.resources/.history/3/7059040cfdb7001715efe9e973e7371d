@@ -1,0 +1,39 @@
+//Calcular el factorial de un numero, mediante subprogramas.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class eje20 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int num1 = 0;
+		int cont = 2;
+		int factorial = 0;
+		int apoyo = 0;
+		int a1= 0;
+		System.out.println("dame el número:");
+		num1=teclado.nextInt();
+		cont = num1 - 1;
+		while(cont>=1){
+			factorial = num1 * cont;
+			apoyo = factorial;
+			a1 = apoyo + factorial;
+			
+			cont--;
+			
+		}
+		
+		System.out.println( a1 );
+	}
+
+}

@@ -1,0 +1,30 @@
+//Introducir una frase por teclado. Imprimirla cinco veces en filas consecutivas, pero cada impresión ir desplazada cuatro columnas hacia la derecha.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class eje22 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int cont=2;
+		String mitexto; // vamos a leer diferentes tipos de datos
+		System.out.println("dame un texto:");
+		mitexto=teclado.nextLine();
+		while(cont==5){ 
+		System.out.println(mitexto);
+		cont++;
+		}
+
+	}
+
+}

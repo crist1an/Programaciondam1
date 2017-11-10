@@ -1,0 +1,30 @@
+//Simular el lanzamiento de una moneda al aire e imprimir si ha salido cara o cruz.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje28 {
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int cont=1;
+		int cara=2;
+		int cruz=1;
+		int v= (int) (Math.random()*3);
+		System.out.println(v);
+		if(v==cara){
+			System.out.println("Gana cara.");	
+		}
+		if (v==cruz){
+			System.out.println("Gana cruz.");
+		}
+	}
+
+}

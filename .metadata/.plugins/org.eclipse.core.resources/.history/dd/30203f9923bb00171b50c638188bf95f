@@ -1,0 +1,20 @@
+//Simular cien tiradas de dos dados y contar las veces que entre los dos suman 10.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje29 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

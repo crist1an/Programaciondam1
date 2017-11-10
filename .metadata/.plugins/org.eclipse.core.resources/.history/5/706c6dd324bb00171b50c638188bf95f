@@ -1,0 +1,34 @@
+//Simular cien tiradas de dos dados y contar las veces que entre los dos suman 10.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje29 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int cont=0;
+		int suma=0;
+		int dado1= (int) (Math.random()*7);////nos genera un numero aletorio (sin incluir el 0 y el 7)
+		int dado2= (int) (Math.random()*7);////nos genera un numero aletorio (sin incluir el 0 y el 7)
+		System.out.println(dado1);
+		System.out.println(dado1);
+		while(cont<100){
+			
+			if(dado1+dado2==10){
+				suma++;
+					
+			}
+			cont++;
+		}
+		System.out.println("Las veces que la suma de los dos lados el resultado es 10 son "+suma);
+	}
+
+}

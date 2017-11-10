@@ -1,0 +1,31 @@
+//Hacer un programa que lea las calificaciones de un alumno en 10 asignaturas, las almacene en un vector y calcule e imprima su media.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje34 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float media;
+		int nota[]={1,2,3,1};
+		int suma=0;
+		int cont=0;
+		for (int i = 0; i < nota.length; i++) {
+			suma=suma+nota[i];
+			cont++;
+		}
+		media=suma/cont;
+		System.out.println(media);
+		System.out.println(suma);
+		System.out.println(cont);
+	}
+
+}

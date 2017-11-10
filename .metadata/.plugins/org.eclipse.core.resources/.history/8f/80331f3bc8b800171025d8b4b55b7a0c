@@ -1,0 +1,72 @@
+//Introducir un número menor de 5000 y pasarlo a numero romano.
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class eje25 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int num1 = 0;
+		int cont = 1;
+		String romanos = "";
+		int miles=0;
+		int centenas=0;
+		System.out.println("dame un número:");
+		num1=teclado.nextInt();
+		while(num1>5000 || num1<0){
+			System.out.println("dame un número correcto:");
+			num1=teclado.nextInt();
+			
+		}
+		miles=num1/1000;
+		System.out.println(miles);
+		switch(miles){
+		case 1: romanos="M";
+		break;
+		case 2: romanos="MM";
+		break;
+		case 3: romanos="MMM";
+		break;
+		case 4: romanos="MMMM";
+		}
+		System.out.println(romanos);
+		num1=num1-1000*miles;
+		centenas=num1/100;
+		System.out.println(centenas);
+		switch(centenas){
+		case 1: romanos=romanos+"C";
+		break;
+		case 2: romanos=romanos+"CC";
+		break;
+		case 3: romanos=romanos+"CCC";
+		break;
+		case 4: romanos=romanos+"CD";
+		break;
+		case 5: romanos=romanos+"D";
+		break;
+		case 6: romanos=romanos+"DC";
+		break;
+		case 7: romanos=romanos+"DCC";
+		break;
+		case 8: romanos=romanos+"DCCC";
+		break;
+		case 9: romanos=romanos+"CM";
+		
+		}
+		System.out.println(romanos);
+		num1=num1-100*centenas;
+		System.out.println(num1);
+	}
+
+}

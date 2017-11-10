@@ -1,0 +1,29 @@
+//Simular una carrera de dos caballos si cada uno tiene igual probabilidad de ganar.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+public class eje30 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int caballo1=1;
+		int num= (int) (Math.random()*2+1);//nos genera un numero aletorio que es 1 o 2
+		if(num==caballo1){
+			System.out.println("Gana Caballo 1.");	
+		}
+		else{
+			System.out.println("Gana Caballo 2.");
+		}
+	}
+
+	}
+
+}

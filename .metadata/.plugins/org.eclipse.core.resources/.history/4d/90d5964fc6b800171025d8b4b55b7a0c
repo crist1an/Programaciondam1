@@ -1,0 +1,44 @@
+//Introducir un número menor de 5000 y pasarlo a numero romano.
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class eje25 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int num1 = 0;
+		int cont = 1;
+		String romanos = "";
+		int miles=0;
+		System.out.println("dame un número:");
+		num1=teclado.nextInt();
+		while(num1>5000 || num1<0){
+			System.out.println("dame un número correcto:");
+			num1=teclado.nextInt();
+			
+		}
+		miles=num1/1000;
+		switch(miles){
+		case 1: romanos="M";
+		break;
+		case 2: romanos="MM";
+		break;
+		case 3: romanos="MMM";
+		break;
+		case 4: romanos="MMMM";
+		}
+
+	}
+
+}

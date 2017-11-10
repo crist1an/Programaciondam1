@@ -1,0 +1,28 @@
+//Introducir dos números por teclado y mediante un menú, calcule su suma, su resta, su multiplicación o su división.
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class eje31 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int num1=0;
+		int num2=0;
+		System.out.println("dame el primer número:");
+		num1=teclado.nextInt();
+		System.out.println("dame el segundo número:");
+		num2=teclado.nextInt();	
+
+	}
+
+}

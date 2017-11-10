@@ -1,0 +1,56 @@
+//Hacer un pseudocódigo que simule el funcionamiento de un reloj digital y que permita ponerlo en hora
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class eje19 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in);
+		int h=-1;
+		int min=-1;
+		int s=-1;
+		int cont=0;
+		while(s<0||s>=60){
+			System.out.println("dame los segundos:");
+			s=teclado.nextInt();
+		}
+		while(min<0||min>=60){
+			System.out.println("dame los min:");
+			min=teclado.nextInt();
+
+		}
+
+		while(h<0||h>=24){
+			System.out.println("dame los hora:");
+			h=teclado.nextInt();	
+		}
+		while(h<24){
+		if (s>59){
+			min++;
+			s=0;
+		}
+		if(min>59){
+			h++;
+			min=0;
+		}
+		if(h==24){
+			h=0;
+
+		}
+		System.out.println(h+":"+min+":"+s);
+		s++;
+		}
+	}
+		
+}
+

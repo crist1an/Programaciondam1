@@ -1,0 +1,30 @@
+//Introducir tantas frases como queramos y contarlas
+
+/**
+ * 
+ */
+
+/**
+ * @author usuario
+ *
+ */
+import java.util.Scanner;
+public class Eje7 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner(System.in); 
+		int cont=0;
+		String texto="";
+		System.out.println("dame un texto:");
+		texto=teclado.nextLine();
+			
+		cont++;
+		System.out.println(cont+" "+texto);
+		}
+		
+	}
+
